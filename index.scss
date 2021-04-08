@@ -1,7 +1,79 @@
-p{
+p, h2, h3{
   font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3{
+.navbar{
+  display: flex;
+  justify-content: center;
+  height: 60px;
+}
+
+.navbar h1 {
+  position: relative;
+  bottom: 15px;
   font-family: 'Shrikhand', cursive;
+}
+
+.explorer{
+  background-color: #F8F8F8;
+  padding-bottom: 40px;
+  width: 100vw;
+  position: relative;
+  right: 8px;
+}
+
+.lieu{
+  background-color: #EEEEEE;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.lieu p{
+  position: relative;
+  bottom: 5px;
+}
+
+.lieu img {
+  width: 15px;
+  position: relative;
+  right: 12px;
+}
+
+.search{
+  padding-top: 10px;
+}
+
+.search h2{
+  width: 250px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search p{
+  width: 270px;
+  text-align: center;
+  font-weight: 300;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  bottom: 5px;
+}
+
+.button {
+  width: 220px;
+  height: 50px;
+  border-radius: 30px;
+  background: linear-gradient(175deg, #FF79DA 5%, rgba(255, 255, 255, 0) 130%), #5C338C;
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button p{
+  text-align: center;
+  color: white;
+  padding-top: 15px;
 }
