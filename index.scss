@@ -1,7 +1,56 @@
-p{
+p, h3{
   font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3{
+h1, h2{
   font-family: 'Shrikhand', cursive;
+}
+
+.navbar{
+  display: flex;
+  justify-content: center;
+  height: 60px;
+}
+
+.navbar h1 {
+  position: relative;
+  bottom: 15px;
+}
+
+.explorer{
+  background-color: #F2F2F2;
+  padding-bottom: 30px;
+}
+
+.lieu{
+  background-color: #DDDDDD;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.lieu p{
+  position: relative;
+  bottom: 5px;
+}
+
+.search{
+}
+
+.search h3{
+  width: 240px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search p{
+  width: 270px;
+  text-align: center;
+  font-weight: 300;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  bottom: 5px;
 }
