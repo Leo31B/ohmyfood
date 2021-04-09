@@ -137,4 +137,91 @@ p, h2, h3 {
 
 .restaurants {
   background-color: #F8F8F8;
+  padding-top: 10px;
+  padding-bottom: 60px;
+  width: 100vw;
+  position: relative;
+  right: 8px;
 }
+
+.restaurants h2 {
+  letter-spacing: -1px;
+  padding-left: 8px;
+}
+
+.caseR {
+  height: 250px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 15px;
+  background-color: white;
+  filter: drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.15));
+}
+
+.caseR img {
+  width: 335px;
+  height: 175px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  object-fit: cover;
+}
+
+.caseR p {
+  line-height: 2px;
+  padding-top: 5px;
+  padding-left: 15px;
+}
+
+.new {
+  z-index: 100;
+  width: 75px;
+  height: 25px;
+  background-color: #99E2D0;
+  position: relative;
+  top: 20px;
+  left: 270px;
+  border-radius: 4px;
+}
+
+.new p {
+  color: #3D9D86;
+  text-align: center;
+  padding-top: 3px;
+}
+
+#newfix {
+  position: relative;
+  top: 0px;
+}
+
+#n1 {
+  position: relative;
+  bottom: 20px;
+}
+
+#n2 {
+  position: relative;
+  bottom: 40px;
+}
+
+#name {
+  letter-spacing: -1px;
+}
+
+#place {
+  font-weight: 300;
+}
+
+.footer {
+  background-color: #5F5F5F;
+  color: white;
+  width: 100vw;
+  position: relative;
+  right: 8px;
+}
+
+.logo {
+  font-family: 'Shrikhand', cursive;
+}
+
+
