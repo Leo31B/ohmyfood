@@ -213,15 +213,37 @@ p, h2, h3 {
 }
 
 .footer {
-  background-color: #5F5F5F;
+  background-color: #3C3C3C;
   color: white;
   width: 100vw;
   position: relative;
   right: 8px;
+  padding-top: 1px;
+  padding-bottom: 10px;
+  padding-left: 15px;
 }
 
 .logo {
   font-family: 'Shrikhand', cursive;
 }
 
+.iconF {
+  display: flex;
+}
+
+.iconF img {
+  width: 18px;
+  margin-right: 5px;
+}
+
+#part1 {
+  position: relative;
+  bottom: 20px;
+}
+
+#part2 {
+  position: relative;
+  bottom: 35px;
+  line-height: 12px;
+}
 
