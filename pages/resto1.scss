@@ -55,9 +55,9 @@ p, h2, h3 {
 }
 
 .case_menu {
-  background-color: red;
+  background-color: white;
   border-radius: 15px;
-  padding-left: 15px;
+  padding-left: 12px;
   margin-right: 25px;
   height: 57px;
   filter: drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.15));
@@ -66,4 +66,76 @@ p, h2, h3 {
 .case_menu p {
   line-height: 6px;
 }
+
+.CM1 {
+  letter-spacing: -1px;
+  padding-top: 15px;
+}
+
+.CM2 {
+  display: flex;
+  position: relative;
+  bottom: 15px;
+}
+
+.CM3 {
+  font-weight: 300;
+}
+
+.CM4 {
+  position: absolute;
+  right: 10px;
+}
+
+.button {
+  width: 220px;
+  height: 50px;
+  border-radius: 30px;
+  background: linear-gradient(175deg, #FF79DA 5%, rgba(255, 255, 255, 0) 130%), #5C338C;
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button p {
+  text-align: center;
+  color: white;
+  padding-top: 15px;
+}
+
+.footer {
+  background-color: #3C3C3C;
+  color: white;
+  width: 100vw;
+  position: relative;
+  right: 8px;
+  padding-top: 1px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+}
+
+.logo {
+  font-family: 'Shrikhand', cursive;
+}
+
+.iconF {
+  display: flex;
+}
+
+.iconF img {
+  width: 18px;
+  margin-right: 5px;
+}
+
+#part1 {
+  position: relative;
+  bottom: 20px;
+}
+
+#part2 {
+  position: relative;
+  bottom: 35px;
+  line-height: 12px;
+}
+
 
