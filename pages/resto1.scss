@@ -1,0 +1,69 @@
+p, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  height: 60px;
+}
+
+.navbar h1 {
+  position: relative;
+  bottom: 15px;
+  font-family: 'Shrikhand', cursive;
+}
+
+.img_resto1 img {
+  width: 100vw;
+  position: relative;
+  right: 8px;
+}
+
+.menu {
+  background-color: #F8F8F8;
+  padding-left: 20px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 25px;
+  width: 96vw;
+  position: relative;
+  right: 8px;
+  bottom: 65px;
+}
+
+.titre_resto {
+
+}
+
+.titre_resto h2 {
+  font-family: 'Shrikhand', cursive;
+  font-weight: 300;
+  padding-top: 20px;
+}
+
+.test {
+  // background-color: red;
+  height: 30px;
+}
+
+.line {
+  background-color: #99E2D0;
+  width: 45px;
+  height: 3px;
+  position: relative;
+  bottom: 15px;
+}
+
+.case_menu {
+  background-color: red;
+  border-radius: 15px;
+  padding-left: 15px;
+  margin-right: 25px;
+  height: 57px;
+  filter: drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.15));
+}
+
+.case_menu p {
+  line-height: 6px;
+}
+
