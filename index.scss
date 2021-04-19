@@ -2,6 +2,11 @@ p, h2, h3 {
   font-family: 'Roboto', sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .navbar {
   display: flex;
   justify-content: center;
@@ -35,10 +40,9 @@ p, h2, h3 {
   bottom: 5px;
 }
 
-.lieu img {
-  width: 15px;
-  position: relative;
-  right: 12px;
+.fa-map-marker-alt {
+  padding-top: 12px;
+  padding-right: 5px;
 }
 
 .search{
@@ -99,10 +103,21 @@ p, h2, h3 {
   letter-spacing: -1px;
 }
 
+.etape {
+  display: flex;
+  margin-top: 30px;
+}
+
 .etape p {
   position: relative;
-  top: 12px;
+  bottom: 17px;
   margin-left: 20px;
+}
+
+.fa-ellipsis-v {
+  position: relative;
+  top: 1px;
+  right: 2px;
 }
 
 .img1 {
@@ -151,8 +166,8 @@ p, h2, h3 {
 
 .caseR {
   height: 250px;
+  width: 335px;
   margin-left: 20px;
-  margin-right: 20px;
   border-radius: 15px;
   background-color: white;
   filter: drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.15));
@@ -231,9 +246,14 @@ p, h2, h3 {
   display: flex;
 }
 
-.iconF img {
-  width: 18px;
+.fa-utensils {
+  margin-right: 10px;
+  padding-top: 16px;
+}
+
+.fa-hands-helping {
   margin-right: 5px;
+  padding-top: 16px;
 }
 
 #part1 {
@@ -247,3 +267,40 @@ p, h2, h3 {
   line-height: 12px;
 }
 
+@media screen and (min-width: 800px) {
+  .flex {
+    display: flex;
+    position: relative;
+    top: 30px;
+    left: 35px;
+  }
+  #n2 {
+    bottom: 20px;
+  }
+  #n3 {
+    top: 60px;
+    left: 110px;
+  }
+  #n4 {
+    position: relative;
+    bottom: 20px;
+    left: 75px;
+  }
+  .new {
+    left: 340px;
+    top: -5px;
+  }
+  .new p {
+    position: relative;
+    bottom: 15px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .flex {
+    left: 200px;
+  }
+  #n3 {
+    left: 275px;
+  }
+}
