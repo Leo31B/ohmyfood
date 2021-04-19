@@ -4,10 +4,16 @@
     <meta charset="utf-8">
     <title>Ohmyfood</title>
     <link rel="stylesheet" href="pages/restos.scss">
+    <link rel="stylesheet" href="layouts/_footer.scss">
     <link href="css/all.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&family=Shrikhand&display=swap" rel="stylesheet">
   </head>
+  <style>
+    body {
+      background-color: #F8F8F8;
+    }
+  </style>
 
   <body>
 
@@ -114,11 +120,26 @@
         </div>
       </div>
 
-      <div class="button">
+      <div class="button" id="position">
         <p>Commander</p>
       </div>
 
     </div>
+
+    <!-- Footer -->
+    <section class="footer">
+      <p class="logo">ohmyfood</p>
+      <div class="iconF">
+        <i class="fas fa-utensils"></i>
+        <p>Proposer un restaurant</p>
+      </div>
+      <div class="iconF" id="part1">
+        <i class="fas fa-hands-helping"></i>
+        <p>Devenir partenaire</p>
+      </div>
+      <p id="part2">Mentions légales</p>
+      <p id="part2">Contact</p>
+    </section>
 
   </body>
 </html>
