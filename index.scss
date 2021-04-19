@@ -2,6 +2,11 @@ p, h2, h3 {
   font-family: 'Roboto', sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .navbar {
   display: flex;
   justify-content: center;
@@ -262,69 +267,7 @@ p, h2, h3 {
   line-height: 12px;
 }
 
-/*ORDI*/
-// @media screen and (min-width: 1366px) and (min-height: 768px) {
-//   .restaurants {
-//     background-color: red;
-//   }
-//   .flex {
-//     // display: flex;
-//     // position: relative;
-//     // left: 100px;
-//   }
-//   #n1 {
-//     bottom: 0px;
-//     right: 140px;
-//   }
-
-//   #n2 {
-//     bottom: 0px;
-//     right: 180px;
-//   }
-//   #n3 {
-//     position: relative;
-//     left: 64px;
-//     top: 25px;
-//   }
-//   #n4 {
-//     position: relative;
-//     right: 21px;
-//   }
-//   .new {
-//     left: 305px;
-//   }
-//   .new p {
-//     position: relative;
-//     bottom: 15px;
-//   }
-//   #newfix {
-//     top: 20px;
-//     left: 258px;
-//   }
-// }
-
-/*Ipad*/
-// @media only screen and (max-width: 1024px) and (max-height: 768px) and (orientation: landscape){
-//   .restaurants {
-//     background-color: blue;
-//   }
-//   .flex {
-//     display: flex;
-//     position: relative;
-//     left: 100px;
-//   }
-//   #n3 {
-//     left: 175px;
-//   }
-//   #n4 {
-//     right: 9px;
-//   }
-// }
-
-@media screen and (min-width: 800px) and (min-height: 600px) {
-  .restaurants {
-    // background-color: red;
-  }
+@media screen and (min-width: 800px) {
   .flex {
     display: flex;
     position: relative;
@@ -350,5 +293,14 @@ p, h2, h3 {
   .new p {
     position: relative;
     bottom: 15px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .flex {
+    left: 200px;
+  }
+  #n3 {
+    left: 275px;
   }
 }
