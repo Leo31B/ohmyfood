@@ -189,8 +189,8 @@ a {
 
 .new {
   z-index: 100;
-  width: 75px;
-  height: 25px;
+  width: 80px;
+  height: 30px;
   background-color: #99E2D0;
   position: relative;
   top: 20px;
@@ -201,7 +201,8 @@ a {
 .new p {
   color: #3D9D86;
   text-align: center;
-  padding-top: 3px;
+  padding-top: 7px;
+  font-size: 14px;
 }
 
 #newfix {
@@ -225,6 +226,12 @@ a {
 
 #place {
   font-weight: 300;
+}
+
+.fa-heart {
+  position: relative;
+  left: 290px;
+  bottom: 35px;
 }
 
 .footer {
@@ -265,6 +272,13 @@ a {
   position: relative;
   bottom: 35px;
   line-height: 12px;
+}
+
+@media screen and (max-width: 414px) {
+  #n4 img {
+    // position: relative;
+    // bottom: 12px;
+  }
 }
 
 @media screen and (min-width: 800px) {
