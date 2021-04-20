@@ -1,0 +1,18 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  height: 60px;
+}
+
+.navbar h1 {
+  position: relative;
+  bottom: 15px;
+  font-family: 'Shrikhand', cursive;
+}
+
+.fa-arrow-left {
+  position: relative;
+  right: 70px;
+  top: 20px;
+  color: black;
+}

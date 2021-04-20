@@ -1,24 +1,3 @@
-p, h2, h3 {
-  font-family: 'Roboto', sans-serif;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-.navbar {
-  display: flex;
-  justify-content: center;
-  height: 60px;
-}
-
-.navbar h1 {
-  position: relative;
-  bottom: 15px;
-  font-family: 'Shrikhand', cursive;
-}
-
 .explorer {
   background-color: #F8F8F8;
   padding-bottom: 40px;
@@ -230,7 +209,7 @@ a {
   }
   #n3 {
     top: 60px;
-    left: 110px;
+    left: 118px;
   }
   #n4 {
     position: relative;
@@ -252,6 +231,6 @@ a {
     left: 200px;
   }
   #n3 {
-    left: 275px;
+    left: 280px;
   }
 }
