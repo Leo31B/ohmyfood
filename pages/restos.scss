@@ -29,12 +29,17 @@
   height: 30px;
 }
 
+.test p {
+  // animation: slide 1.4s ease-out infinite;
+}
+
 .line {
   background-color: #99E2D0;
   width: 45px;
   height: 3px;
   position: relative;
   bottom: 15px;
+  // animation: opaque 8s infinite;
 }
 
 .case_menu {
@@ -44,6 +49,7 @@
   margin-right: 25px;
   height: 57px;
   filter: drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.15));
+  // animation: menus 1s ease-out forwards;
 }
 
 .case_menu p {
@@ -73,6 +79,35 @@
 #position {
   position: relative;
   top: 30px;
+}
+
+@keyframes opaque {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: translate(100px,0);
+  }
+  100% {
+    transform: translate(0,0);
+  }
+}
+
+@keyframes menus {
+  0% {
+    // opacity: 0;
+    transform: translate(0,50px);
+  }
+  100% {
+    // opacity: 1;
+    transform: translate(0,0);
+  }
 }
 
 /*ORDI*/
