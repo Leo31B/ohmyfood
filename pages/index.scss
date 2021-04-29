@@ -12,12 +12,17 @@
   display: flex;
   justify-content: center;
   box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.15);
-}
-
-.lieu p {
+  p {
   position: relative;
   bottom: 5px;
+  background-color: red;
+  }
 }
+
+// .lieu p {
+//   position: relative;
+//   bottom: 5px;
+// }
 
 .fa-map-marker-alt {
   padding-top: 12px;
