@@ -190,7 +190,23 @@
 .heart2 {
   position: relative;
   bottom: 18px;
-  opacity: 0;
+  .fa-heart {
+    opacity: 0;
+  }
+  .fa-heart:hover {
+    color: #5C338C;
+    opacity: 1;
+    animation: heart 400ms ease-out forwards;
+  }
+}
+
+@keyframes heart {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @media screen and (min-width: 800px) {
