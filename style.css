@@ -175,24 +175,21 @@
   bottom: 50px;
 }
 
-.fa-heart {
+.heart1_index {
   position: relative;
+  bottom: 75px;
   left: 290px;
 }
 
-.heart1 {
-  position: relative;
-  bottom: 75px;
-}
-
-.heart2 {
+.heart2_index {
   position: relative;
   bottom: 92px;
+  left: 290px;
 }
-.heart2 .fa-heart {
+.heart2_index .fa-heart {
   opacity: 0;
 }
-.heart2 .fa-heart:hover {
+.heart2_index .fa-heart:hover {
   color: #5C338C;
   opacity: 1;
   animation: heart 400ms ease-out forwards;
@@ -232,10 +229,33 @@
   z-index: 10;
 }
 
+.titre_resto {
+  height: 60px;
+}
 .titre_resto h2 {
   font-family: "Shrikhand", cursive;
   font-weight: 300;
   padding-top: 20px;
+}
+
+.heart1_menu {
+  position: relative;
+  left: 325px;
+  bottom: 45px;
+}
+
+.heart2_menu {
+  position: relative;
+  left: 325px;
+  bottom: 62px;
+}
+.heart2_menu .fa-heart {
+  opacity: 0;
+}
+.heart2_menu .fa-heart:hover {
+  color: #5C338C;
+  opacity: 1;
+  animation: heart 400ms ease-out forwards;
 }
 
 .test {

@@ -175,19 +175,16 @@
   bottom: 50px;
 }
 
-.fa-heart {
+.heart1_index {
   position: relative;
+  bottom: 75px;
   left: 290px;
 }
 
-.heart1 {
-  position: relative;
-  bottom: 75px;
-}
-
-.heart2 {
+.heart2_index {
   position: relative;
   bottom: 92px;
+  left: 290px;
   .fa-heart {
     opacity: 0;
   }
