@@ -13,16 +13,10 @@
   justify-content: center;
   box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.15);
   p {
-  position: relative;
-  bottom: 5px;
-  background-color: red;
+    position: relative;
+    bottom: 5px;
   }
 }
-
-// .lieu p {
-//   position: relative;
-//   bottom: 5px;
-// }
 
 .fa-map-marker-alt {
   padding-top: 12px;
@@ -31,32 +25,29 @@
 
 .search{
   padding-top: 10px;
-}
-
-.search h2 {
-  width: 250px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  letter-spacing: -1px;
-}
-
-.search p {
-  width: 270px;
-  text-align: center;
-  font-weight: 300;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  bottom: 5px;
+  h2 {
+    width: 250px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: -1px;
+  }
+  p {
+    width: 270px;
+    text-align: center;
+    font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 5px;
+  }
 }
 
 .fonctionnement {
   margin-bottom: 40px;
-}
-
-.fonctionnement h2 {
-  letter-spacing: -1px;
+  h2 {
+    letter-spacing: -1px;
+  }
 }
 
 .caseF {
@@ -74,12 +65,11 @@
 .etape {
   display: flex;
   margin-top: 30px;
-}
-
-.etape p {
-  position: relative;
-  bottom: 17px;
-  margin-left: 20px;
+  p {
+    position: relative;
+    bottom: 17px;
+    margin-left: 20px;
+  }
 }
 
 .fa-ellipsis-v {
@@ -109,13 +99,12 @@
   position: relative;
   top: 25px;
   right: 10px;
-}
-
-.number p {
-  color: white;
-  position: relative;
-  bottom: 13px;
-  left: 8px;
+  p {
+    color: white;
+    position: relative;
+    bottom: 13px;
+    left: 8px;
+  }
 }
 
 .restaurants {
@@ -125,11 +114,10 @@
   width: 100vw;
   position: relative;
   right: 8px;
-}
-
-.restaurants h2 {
-  letter-spacing: -1px;
-  padding-left: 8px;
+  h2 {
+    letter-spacing: -1px;
+    padding-left: 8px;
+  }
 }
 
 .caseR {
@@ -139,20 +127,18 @@
   border-radius: 15px;
   background-color: white;
   filter: drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.15));
-}
-
-.caseR img {
-  width: 335px;
-  height: 175px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  object-fit: cover;
-}
-
-.caseR p {
-  line-height: 2px;
-  padding-top: 5px;
-  padding-left: 15px;
+  img {
+    width: 335px;
+    height: 175px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+  }
+  p {
+    line-height: 2px;
+    padding-top: 5px;
+    padding-left: 15px;
+  }
 }
 
 .new {
@@ -164,13 +150,12 @@
   top: 20px;
   left: 270px;
   border-radius: 4px;
-}
-
-.new p {
-  color: #3D9D86;
-  text-align: center;
-  padding-top: 7px;
-  font-size: 14px;
+  p {
+    color: #3D9D86;
+    text-align: center;
+    padding-top: 7px;
+    font-size: 14px;
+  }
 }
 
 #newfix {
@@ -224,10 +209,10 @@
   .new {
     left: 340px;
     top: -5px;
-  }
-  .new p {
-    position: relative;
-    bottom: 15px;
+    p {
+      position: relative;
+      bottom: 15px;
+    }
   }
 }
 
