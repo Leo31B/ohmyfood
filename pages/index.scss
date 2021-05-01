@@ -123,7 +123,9 @@
 .caseR {
   height: 250px;
   width: 335px;
-  margin-left: 20px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 15px;
   background-color: white;
   filter: drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.15));
@@ -147,49 +149,42 @@
   height: 30px;
   background-color: #99E2D0;
   position: relative;
-  top: 20px;
-  left: 270px;
+  bottom: 180px;
+  left: 240px;
   border-radius: 4px;
   p {
     color: #3D9D86;
-    text-align: center;
-    padding-top: 7px;
+    padding-top: 12px;
     font-size: 14px;
   }
 }
 
-#newfix {
-  position: relative;
-  top: 0px;
-}
-
-#n1 {
-  position: relative;
-  bottom: 20px;
-}
-
-#n2 {
-  position: relative;
-  bottom: 40px;
+#new_cache {
+  opacity: 0;
 }
 
 #name {
   letter-spacing: -1px;
+  position: relative;
+  bottom: 50px;
 }
 
 #place {
   font-weight: 300;
+  position: relative;
+  bottom: 50px;
 }
 
-.fa-heart {
+.heart1_index {
   position: relative;
+  bottom: 75px;
   left: 290px;
-  bottom: 35px;
 }
 
-.heart2 {
+.heart2_index {
   position: relative;
-  bottom: 18px;
+  bottom: 92px;
+  left: 290px;
   .fa-heart {
     opacity: 0;
   }
@@ -209,40 +204,8 @@
   }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1024px) and (min-height: 768px) {
   .flex {
     display: flex;
-    position: relative;
-    top: 30px;
-    left: 35px;
-  }
-  #n2 {
-    bottom: 20px;
-  }
-  #n3 {
-    top: 60px;
-    left: 118px;
-  }
-  #n4 {
-    position: relative;
-    bottom: 20px;
-    left: 75px;
-  }
-  .new {
-    left: 340px;
-    top: -5px;
-    p {
-      position: relative;
-      bottom: 15px;
-    }
-  }
-}
-
-@media screen and (min-width: 1025px) {
-  .flex {
-    left: 200px;
-  }
-  #n3 {
-    left: 280px;
   }
 }
