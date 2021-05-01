@@ -1,26 +1,3 @@
-p, h2, h3 {
-  font-family: 'Roboto', sans-serif;
-}
-
-.navbar {
-  display: flex;
-  justify-content: center;
-  height: 60px;
-}
-
-.navbar h1 {
-  position: relative;
-  bottom: 15px;
-  font-family: 'Shrikhand', cursive;
-}
-
-.fa-arrow-left {
-  position: relative;
-  right: 70px;
-  top: 20px;
-  color: black;
-}
-
 .img_resto1 img {
   width: 100vw;
   height: 260px;
@@ -67,10 +44,10 @@ p, h2, h3 {
   margin-right: 25px;
   height: 57px;
   filter: drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.15));
-}
-
-.case_menu p {
-  line-height: 6px;
+  animation: menus 1s ease-out forwards;
+  p {
+    line-height: 6px;
+  }
 }
 
 .CM1 {
@@ -96,6 +73,17 @@ p, h2, h3 {
 #position {
   position: relative;
   top: 30px;
+}
+
+@keyframes menus {
+  0% {
+    opacity: 0;
+    transform: translate(0,20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0,0);
+  }
 }
 
 /*ORDI*/
