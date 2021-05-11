@@ -73,7 +73,7 @@ body {
   margin-bottom: 15px;
 
   &__part1 {
-    width: 60%;
+    width: 90%;
     line-height: 0.3em;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -86,7 +86,7 @@ body {
   &__part2 {
     margin-left: 10px;
     position: relative;
-    left: 50px;
+    left: 40px;
     top: 15px;
     transition-duration: 500ms;
   }
