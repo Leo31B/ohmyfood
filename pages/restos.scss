@@ -1,3 +1,7 @@
+body {
+  background-color: #F8F8F8;
+}
+
 .img_resto1 img {
   width: 100vw;
   height: 260px;
@@ -11,7 +15,7 @@
   padding-left: 20px;
   padding-bottom: 40px;
   border-top-right-radius: 30px;
-  border-top-left-radius: 25px;
+  border-top-left-radius: 30px;
   width: 96vw;
   position: relative;
   right: 8px;
@@ -20,7 +24,6 @@
 }
 
 .titre_resto {
-  // display: flex;
   height: 60px;
   h2 {
     font-family: 'Shrikhand', cursive;
@@ -31,26 +34,24 @@
 
 .heart1_menu {
   position: relative;
-  left: 325px;
   bottom: 45px;
+  text-align: end;
+  margin-right: 30px;
 }
 
 .heart2_menu {
   position: relative;
-  left: 325px;
   bottom: 62px;
+  text-align: end;
+  margin-right: 30px;
   .fa-heart {
     opacity: 0;
+    color: #9356DC;
   }
   .fa-heart:hover {
-    color: #5C338C;
     opacity: 1;
     animation: heart 400ms ease-out forwards;
   }
-}
-
-.test {
-  height: 30px;
 }
 
 .line {
@@ -66,32 +67,60 @@
   border-radius: 15px;
   padding-left: 12px;
   margin-right: 25px;
-  height: 57px;
-  filter: drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.15));
-  animation: menus 1s ease-out forwards;
-  p {
-    line-height: 6px;
-  }
-}
-
-.CM1 {
-  letter-spacing: -1px;
-  padding-top: 15px;
-}
-
-.CM2 {
   display: flex;
-  position: relative;
-  bottom: 15px;
-}
+  filter: drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.15));
+  overflow: hidden;
+  margin-bottom: 15px;
 
-.CM3 {
-  font-weight: 300;
-}
+  &__part1 {
+    width: 90%;
+    line-height: 0.3em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    p {
+      font-weight: 300;
+    }
+  }
 
-.CM4 {
-  position: absolute;
-  right: 10px;
+  &__part2 {
+    margin-left: 10px;
+    position: relative;
+    left: 40px;
+    top: 15px;
+    transition-duration: 500ms;
+  }
+
+  &__part3 {
+    background-color: #99E2D0;
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    position: relative;
+    left: 65px;
+    transition-duration: 500ms;
+    .fa-check-circle {
+      color: white;
+      transform: rotate(720deg);
+      transition-duration: 500ms;
+    }
+  }
+
+  &:hover {
+    .fa-check-circle {
+      transform: rotate(0)
+    }
+
+  }
+  &:hover &__part3 {
+    transform: translateX(-65px);
+  }
+
+  &:hover &__part2 {
+    transform: translateX(-50px);
+  }
 }
 
 #position {
@@ -113,7 +142,13 @@
 /*ORDI*/
 @media screen and (min-width: 800px) {
   .menu {
-  width: 98vw;
+  width: 99vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .CM3 {
+    max-width: 275px;
   }
 }
 
