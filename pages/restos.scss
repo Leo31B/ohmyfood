@@ -79,7 +79,6 @@ body {
 
   &__part1 {
     width: 65%;
-    background-color: red;
     line-height: 0.3em;
     p {
       font-weight: 300;
@@ -94,14 +93,16 @@ body {
 
   &__part3 {
     background-color: #99E2D0;
-    width: 4em;
+    width: 65px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: auto;
+    // transform: translateX(-20px);
+    transition-duration: 500ms;
     .fa-check-circle {
       color: white;
-      transform: rotate(180deg);
+      transform: rotate(360deg);
       transition-duration: 500ms;
     }
   }
@@ -110,6 +111,10 @@ body {
     .fa-check-circle {
       transform: rotate(0)
     }
+
+  }
+  &:hover &__part3 {
+    transform: translateX(-20px);
   }
 }
 

@@ -287,7 +287,6 @@ body {
 }
 .case_menu__part1 {
   width: 65%;
-  background-color: red;
   line-height: 0.3em;
 }
 .case_menu__part1 p {
@@ -300,19 +299,23 @@ body {
 }
 .case_menu__part3 {
   background-color: #99E2D0;
-  width: 4em;
+  width: 65px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: auto;
+  transition-duration: 500ms;
 }
 .case_menu__part3 .fa-check-circle {
   color: white;
-  transform: rotate(180deg);
+  transform: rotate(360deg);
   transition-duration: 500ms;
 }
 .case_menu:hover .fa-check-circle {
   transform: rotate(0);
+}
+.case_menu:hover .case_menu__part3 {
+  transform: translateX(-20px);
 }
 
 .CM1 {
