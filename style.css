@@ -285,6 +285,7 @@ body {
   filter: drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.15));
   animation: menus 1s ease-out forwards;
 }
+
 .CM1 {
   padding-top: 10px;
 }
@@ -297,15 +298,14 @@ body {
 
 .CM3 {
   font-weight: 300;
-  width: 275px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
 .CM4 {
-  position: absolute;
-  right: 10px;
+  margin-left: auto;
+  margin-right: 15px;
 }
 
 #position {
@@ -327,6 +327,11 @@ body {
 @media screen and (min-width: 800px) {
   .menu {
     width: 99vw;
+  }
+}
+@media screen and (max-width: 800px) {
+  .CM3 {
+    max-width: 275px;
   }
 }
 .navbar {
