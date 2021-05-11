@@ -46,16 +46,12 @@ body {
   margin-right: 30px;
   .fa-heart {
     opacity: 0;
+    color: #9356DC;
   }
   .fa-heart:hover {
-    color: #5C338C;
     opacity: 1;
     animation: heart 400ms ease-out forwards;
   }
-}
-
-.test {
-  height: 30px;
 }
 
 .line {
@@ -72,14 +68,16 @@ body {
   padding-left: 12px;
   margin-right: 25px;
   display: flex;
-  // height: 60px;
   filter: drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.15));
-  // animation: menus 1s ease-out forwards;
   overflow: hidden;
+  margin-bottom: 15px;
 
   &__part1 {
-    width: 65%;
+    width: 60%;
     line-height: 0.3em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
     p {
       font-weight: 300;
     }
@@ -88,7 +86,9 @@ body {
   &__part2 {
     margin-left: 10px;
     position: relative;
+    left: 50px;
     top: 15px;
+    transition-duration: 500ms;
   }
 
   &__part3 {
@@ -98,11 +98,12 @@ body {
     justify-content: center;
     align-items: center;
     margin-left: auto;
-    // transform: translateX(-20px);
+    position: relative;
+    left: 65px;
     transition-duration: 500ms;
     .fa-check-circle {
       color: white;
-      transform: rotate(360deg);
+      transform: rotate(720deg);
       transition-duration: 500ms;
     }
   }
@@ -114,30 +115,12 @@ body {
 
   }
   &:hover &__part3 {
-    transform: translateX(-20px);
+    transform: translateX(-65px);
   }
-}
 
-.CM1 {
-  padding-top: 10px;
-}
-
-.CM2 {
-  display: flex;
-  position: relative;
-  bottom: 30px;
-}
-
-.CM3 {
-  font-weight: 300;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.CM4 {
-  margin-left: auto;
-  margin-right: 15px;
+  &:hover &__part2 {
+    transform: translateX(-50px);
+  }
 }
 
 #position {
