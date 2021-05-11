@@ -281,9 +281,38 @@ body {
   border-radius: 15px;
   padding-left: 12px;
   margin-right: 25px;
-  height: 60px;
+  display: flex;
   filter: drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.15));
-  animation: menus 1s ease-out forwards;
+  overflow: hidden;
+}
+.case_menu__part1 {
+  width: 65%;
+  background-color: red;
+  line-height: 0.3em;
+}
+.case_menu__part1 p {
+  font-weight: 300;
+}
+.case_menu__part2 {
+  margin-left: 10px;
+  position: relative;
+  top: 15px;
+}
+.case_menu__part3 {
+  background-color: #99E2D0;
+  width: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+}
+.case_menu__part3 .fa-check-circle {
+  color: white;
+  transform: rotate(180deg);
+  transition-duration: 500ms;
+}
+.case_menu:hover .fa-check-circle {
+  transform: rotate(0);
 }
 
 .CM1 {
@@ -412,7 +441,7 @@ body {
   padding-top: 15px;
 }
 
-p, h2, h3 {
+p, h2, h3, h4 {
   font-family: "Roboto", sans-serif;
 }
 

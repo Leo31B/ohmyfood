@@ -71,9 +71,46 @@ body {
   border-radius: 15px;
   padding-left: 12px;
   margin-right: 25px;
-  height: 60px;
+  display: flex;
+  // height: 60px;
   filter: drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.15));
-  animation: menus 1s ease-out forwards;
+  // animation: menus 1s ease-out forwards;
+  overflow: hidden;
+
+  &__part1 {
+    width: 65%;
+    background-color: red;
+    line-height: 0.3em;
+    p {
+      font-weight: 300;
+    }
+  }
+
+  &__part2 {
+    margin-left: 10px;
+    position: relative;
+    top: 15px;
+  }
+
+  &__part3 {
+    background-color: #99E2D0;
+    width: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    .fa-check-circle {
+      color: white;
+      transform: rotate(180deg);
+      transition-duration: 500ms;
+    }
+  }
+
+  &:hover {
+    .fa-check-circle {
+      transform: rotate(0)
+    }
+  }
 }
 
 .CM1 {
