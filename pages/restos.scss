@@ -1,3 +1,7 @@
+body {
+  background-color: #F8F8F8;
+}
+
 .img_resto1 img {
   width: 100vw;
   height: 260px;
@@ -67,27 +71,27 @@
   border-radius: 15px;
   padding-left: 12px;
   margin-right: 25px;
-  height: 57px;
+  height: 60px;
   filter: drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.15));
   animation: menus 1s ease-out forwards;
-  p {
-    line-height: 6px;
-  }
 }
 
 .CM1 {
-  letter-spacing: -1px;
-  padding-top: 15px;
+  padding-top: 10px;
 }
 
 .CM2 {
   display: flex;
   position: relative;
-  bottom: 15px;
+  bottom: 30px;
 }
 
 .CM3 {
   font-weight: 300;
+  width: 275px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .CM4 {
