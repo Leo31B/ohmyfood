@@ -154,7 +154,8 @@
 }
 .new p {
   color: #3D9D86;
-  padding-top: 12px;
+  padding-left: 12px;
+  padding-top: 13px;
   font-size: 14px;
 }
 
@@ -182,7 +183,7 @@
 
 .heart2_index {
   position: relative;
-  bottom: 92px;
+  bottom: 93px;
   text-align: end;
   margin-right: 25px;
 }
@@ -190,19 +191,11 @@
   opacity: 0;
 }
 .heart2_index .fa-heart:hover {
-  color: #5C338C;
+  color: #9356DC;
   opacity: 1;
-  animation: heart 400ms ease-out forwards;
+  transition-duration: 400ms;
 }
 
-@keyframes heart {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 @media screen and (min-width: 1024px) and (min-height: 768px) {
   .flex {
     display: flex;
@@ -251,7 +244,7 @@ body {
 
 .heart2_menu {
   position: relative;
-  bottom: 62px;
+  bottom: 63px;
   text-align: end;
   margin-right: 30px;
 }
@@ -421,6 +414,8 @@ body {
   border-radius: 30px;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
 }
 
 .button p {

@@ -153,7 +153,8 @@
   border-radius: 4px;
   p {
     color: #3D9D86;
-    padding-top: 12px;
+    padding-left: 12px;
+    padding-top: 13px;
     font-size: 14px;
   }
 }
@@ -182,25 +183,16 @@
 
 .heart2_index {
   position: relative;
-  bottom: 92px;
+  bottom: 93px;
   text-align: end;
   margin-right: 25px;
   .fa-heart {
     opacity: 0;
   }
   .fa-heart:hover {
-    color: #5C338C;
+    color: #9356DC;
     opacity: 1;
-    animation: heart 400ms ease-out forwards;
-  }
-}
-
-@keyframes heart {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
+    transition-duration: 400ms;
   }
 }
 
