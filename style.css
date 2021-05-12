@@ -1,3 +1,26 @@
+.progress-bar {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  animation: fond 3s;
+}
+
+.progress {
+  animation: loader 3s;
+  background: #9356DC;
+  padding: 5px;
+  border-radius: 60px;
+  display: block;
+  opacity: 0;
+  max-width: 50%;
+  margin-top: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .explorer {
   background-color: #F8F8F8;
   padding-bottom: 40px;
@@ -361,15 +384,6 @@ body {
   top: 30px;
 }
 
-@keyframes menus {
-  0% {
-    transform: translate(0, 30px);
-  }
-  100% {
-    opacity: 1;
-    transform: translate(0, 0);
-  }
-}
 /*ORDI*/
 @media screen and (min-width: 800px) {
   .menu {
@@ -472,6 +486,67 @@ p, h2, h3, h4 {
 a {
   text-decoration: none;
   color: black;
+}
+
+@keyframes loader {
+  0% {
+    width: 0;
+    opacity: 1;
+  }
+  20% {
+    width: 10%;
+  }
+  25% {
+    width: 24%;
+  }
+  43% {
+    width: 41%;
+  }
+  56% {
+    width: 50%;
+    opacity: 0.9;
+  }
+  66% {
+    width: 52%;
+  }
+  71% {
+    width: 60%;
+    background: #FF79DA;
+  }
+  94% {
+    width: 86%;
+    opacity: 0.5;
+  }
+  100% {
+    width: 100%;
+    background: #99E2D0;
+    opacity: 0;
+    z-index: -10;
+  }
+}
+@keyframes fond {
+  0% {
+    z-index: 1000;
+    background-color: white;
+    opacity: 0.9;
+  }
+  90% {
+    background-color: white;
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+@keyframes menus {
+  0% {
+    transform: translate(0, 30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
