@@ -274,6 +274,8 @@ body {
   filter: drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.15));
   overflow: hidden;
   margin-bottom: 15px;
+  animation: menus 800ms ease-out forwards;
+  opacity: 0;
 }
 .case_menu__part1 {
   width: 90%;
@@ -318,6 +320,46 @@ body {
   transform: translateX(-50px);
 }
 
+#delay1 {
+  animation-delay: 0.2s;
+}
+
+#delay2 {
+  animation-delay: 0.4s;
+}
+
+#delay3 {
+  animation-delay: 0.6s;
+}
+
+#delay4 {
+  animation-delay: 0.8s;
+}
+
+#delay5 {
+  animation-delay: 1s;
+}
+
+#delay6 {
+  animation-delay: 1.2s;
+}
+
+#delay7 {
+  animation-delay: 1.4s;
+}
+
+#delay8 {
+  animation-delay: 1.6s;
+}
+
+#delay9 {
+  animation-delay: 1.8s;
+}
+
+#delay10 {
+  animation-delay: 2s;
+}
+
 #position {
   position: relative;
   top: 30px;
@@ -325,8 +367,7 @@ body {
 
 @keyframes menus {
   0% {
-    opacity: 0;
-    transform: translate(0, 20px);
+    transform: translate(0, 30px);
   }
   100% {
     opacity: 1;
