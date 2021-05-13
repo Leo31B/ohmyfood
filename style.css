@@ -311,6 +311,10 @@ body {
 .case_menu__part1 h4 {
   position: relative;
   bottom: 6px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 230px;
 }
 .case_menu__part1 p {
   font-weight: 300;
@@ -396,14 +400,16 @@ body {
 }
 
 /*ORDI*/
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
   .menu {
-    width: 99vw;
+    width: 98vw;
   }
-}
-@media screen and (max-width: 800px) {
-  .CM3 {
-    max-width: 275px;
+
+  .case_menu__part1 h4 {
+    width: 250px;
+  }
+  .case_menu__part1 p {
+    width: 250px;
   }
 }
 .navbar {
