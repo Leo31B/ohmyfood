@@ -182,16 +182,20 @@
   font-size: 14px;
 }
 
-#new_cache {
+#new_cache1 {
   opacity: 0;
 }
 
-#name {
+#new_cache2 {
+  opacity: 0;
+}
+
+.name {
   position: relative;
   bottom: 50px;
 }
 
-#place {
+.place {
   font-weight: 300;
   position: relative;
   bottom: 50px;
@@ -289,6 +293,7 @@ body {
 }
 
 .case_menu {
+  height: 65px;
   background-color: white;
   border-radius: 15px;
   padding-left: 12px;
@@ -302,13 +307,23 @@ body {
 }
 .case_menu__part1 {
   width: 90%;
-  line-height: 0.3em;
+}
+.case_menu__part1 h4 {
+  position: relative;
+  bottom: 6px;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
+  width: 230px;
 }
 .case_menu__part1 p {
   font-weight: 300;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 230px;
+  position: relative;
+  bottom: 24px;
 }
 .case_menu__part2 {
   margin-left: 10px;
@@ -385,14 +400,16 @@ body {
 }
 
 /*ORDI*/
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
   .menu {
-    width: 99vw;
+    width: 98vw;
   }
-}
-@media screen and (max-width: 800px) {
-  .CM3 {
-    max-width: 275px;
+
+  .case_menu__part1 h4 {
+    width: 315px;
+  }
+  .case_menu__part1 p {
+    width: 315px;
   }
 }
 .navbar {
@@ -451,7 +468,7 @@ body {
   bottom: 20px;
 }
 
-#part2 {
+.part2 {
   position: relative;
   bottom: 35px;
   line-height: 12px;
